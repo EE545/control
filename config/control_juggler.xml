@@ -20,14 +20,14 @@
         <plot style="Lines" mode="TimeSeries">
          <range right="74.963884" bottom="17.394411" top="17.394429" left="64.813944"/>
          <limitY/>
-         <curve name="/car/car_pose/pose/orientation/yaw_deg" color="#ff0000">
-          <transform alias="/car/car_pose/pose/orientation/yaw_deg" name="Scale/Offset">
-           <options time_offset="0" value_offset="0" value_scale="0.017453"/>
+         <curve name="/car/car_pose/pose/orientation/yaw" color="#ff0000">
+          <transform alias="/car/car_pose/pose/orientation/yaw" name="Scale/Offset">
+           <options time_offset="0" value_offset="0" value_scale="1.0"/>
           </transform>
          </curve>
-         <curve name="/car/controller/path/reference_state/pose/orientation/yaw_deg" color="#00ff00">
-          <transform alias="/car/controller/path/reference_state/pose/orientation/yaw_deg" name="Scale/Offset">
-           <options time_offset="0" value_offset="0" value_scale="0.017453"/>
+         <curve name="/car/controller/path/reference_state/pose/orientation/yaw" color="#00ff00">
+          <transform alias="/car/controller/path/reference_state/pose/orientation/yaw" name="Scale/Offset">
+           <options time_offset="0" value_offset="0" value_scale="1.0"/>
           </transform>
          </curve>
         </plot>
